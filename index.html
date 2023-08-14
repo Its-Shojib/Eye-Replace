@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./eye.png" type="image/x-icon">
+    <title>Eye Replace</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="bg-gray-600">
+    <h1 class="text-center text-white text-3xl font-extrabold pt-52">Welcome to my PassWord <span
+            class="text-red-700">Eye</span> Replace Page</h1>
+    <div class="bg-white mx-auto mt-10  w-80 flex rounded-lg justify-center items-center">
+        <input type="password" name="password" placeholder="Enter PassWord" id="password"
+            class="w-full p-5 outline-none border-none rounded-lg">
+        <i id="eye" class="fa-solid fa-eye-slash cursor-pointer w-[35px]"></i>
+
+    </div>
+    <footer class="text-center bg-black text-white p-5 mt-5 lg:mt-[303px]">
+        All Rights Reserved by @Md Shojib Hossain || 2023
+    </footer>
+    <!-- <script>
+        let password = document.getElementById("password");
+        let eye = document.getElementById("eye");
+
+        eye.addEventListener("click", function () {
+            if (password.type == "password") {
+                password.type = "text";
+                eye.classList.replace("fa-eye-slash", "fa-eye");
+            }
+            else {
+                password.type = 'password';
+                eye.classList.replace("fa-eye", "fa-eye-slash");
+            }
+        })
+    </script> -->
+</body>
+
+</html>
